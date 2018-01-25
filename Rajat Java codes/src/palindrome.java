@@ -4,7 +4,8 @@ public class palindrome {
 
 			Scanner sn= new Scanner(System.in);
 			System.out.println("Enter the numbers you want to check:");
-			int num=sn.nextInt(),z,rem=0,rev=0;
+			int num=sn.nextInt();
+			int z,rem=0,rev=0;
 			z=num;
 			while(num>0) {
 				rem=num%10;
