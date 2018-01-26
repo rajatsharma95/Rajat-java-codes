@@ -20,13 +20,13 @@ public class linear {
 		 
 		    for (c = 0; c < n; c++)
 		    {
-		      if (array[c] == search)     /* Searching for the if that element is present */
+		      if (array[c] == search)     /* Searching for the element if that is present */
 		      {
 		         System.out.println(search + " is present at location " + (c + 1) + ".");
 		          break;
 		      }
 		   }
-		   if (c == n)  /*if the element to search is not present */
+		   if (c == n)  /*if the element which we are searching is not present */
 		      System.out.println(search + " is not present in array.");
 		  }
 		}
