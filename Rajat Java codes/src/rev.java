@@ -1,4 +1,3 @@
-
 public class rev {
 	public static void main(String[] args) {
 	StringBuffer s1=new StringBuffer("I am a classy boy");//In place of String we are using stringbuffer because reverse function is not defined in the String class, but it is defined in the Stringbuffer class
