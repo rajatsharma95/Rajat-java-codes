@@ -10,9 +10,9 @@ public class anagram {
     int d=s2.length();
     	if(c==d)
     	{
-    		 char a[]= s1.toCharArray();
-    		Arrays.sort(a);
-    		String sorted=new String(a);
+    		 char a[]= s1.toCharArray();//The method toCharArray() returns an Array of chars after converting a String into sequence of characters. The returned array length is equal to the length of the String and the sequence of chars in Array matches the sequence of characters in the String
+    		Arrays.sort(a); //sorting the character array
+    		String sorted=new String(a); //storing the sorted result in the String sorted
     		char b[]=s2.toCharArray();
     		Arrays.sort(b);
     		String sorted1=new String(b);
