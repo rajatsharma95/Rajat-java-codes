@@ -12,7 +12,7 @@ public class Employee{
 	
 	public Employee(String name1,int id,String bloodgroup,int days,int time) 
 	{
-		this(days,time); //ise(employee(int days)) phaile hi call krna padega if we call it after this.bloogroup than this will not work 
+		this(days,time); //ise this(days,time) ko phaile hi call krna padega if we call it after (this.bloogroup) in the 18th line than this(days,time) will not work 
 		this.name=name1;
 		this.id=id;
 		this.bloodgroup=bloodgroup;
