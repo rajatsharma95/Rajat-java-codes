@@ -4,10 +4,14 @@ public class atm {
 		Scanner sn=new Scanner(System.in);
 		System.out.println("ATM : ALL TIME MONEY");
 		System.out.println("enter the pin");
-        int var=sn.nextInt();
+        final int var=sn.nextInt();
         
         int pin=5432;
-        if(var==pin)
+        if(var!=pin)
+        {
+        	System.out.println("Invalid Pin");
+        }
+        else
         {
         	do{
         		System.out.println("ACCESS GRANTED");
@@ -32,12 +36,13 @@ public class atm {
         		
         	case 4:
         		System.out.println("EXIT");
-        		System.exit(0);
+        		System.exit(0); //exiting the switch condition
      
         	}
         	
         }while(true);
         
+        	
              
 		
 	}
