@@ -3,7 +3,8 @@
 public class Demo {
 	int x;
 	int a;
-	public Demo() {
+	public Demo() // Default constructor
+	{
 	
 		System.out.println("Default Constructor : "+x);
 	}
@@ -35,9 +36,9 @@ public class Demo {
 	
 	public static void main(String[] args) {
 		Demo obj;
-	/*obj = new Demo();
+	obj = new Demo(); //Here we are giving the reference to the default constructor at line 6 which will return 0 because default value of the x is 0.
 	obj.show();
-	obj.Add();*/
+	obj.Add();
 	obj = new Demo(12,90);
 	obj.show();
 	obj.Add();
