@@ -9,14 +9,14 @@ public class atm {
         int pin=5432;
         if(var==pin)
         {
-        	System.out.println("ACCESS GRANTED");
+        	do{
+        		System.out.println("ACCESS GRANTED");
         	System.out.println("PRESS 1 FOR BALANCE ENQUIRY!");
         	System.out.println("PRESS 2 FOR Withdrawl");
         	System.out.println("PRESS 3 FOR diposit");
         	System.out.println("PRESS 4 FOR exit");
         	int va=sn.nextInt();
-        	for(int b=0;b<=4;b++)
-        	{
+        	
         	switch (va)
         	{
         	case 1:
@@ -26,21 +26,20 @@ public class atm {
         		int v=sn.nextInt();
         		System.out.println("Amount withdrawn, collect the cash");
         	case 3:
-        		System.out.println("enter amount to deposit");
+        		System.out.println("Enter the amount to deposit");
         		int v2=sn.nextInt();
         		System.out.println("Amount deposited successfully");
+        		
         	case 4:
         		System.out.println("EXIT");
-        	break;
+        		System.exit(0);
+     
         	}
-        	}
-        }
+        	
+        }while(true);
         
-        else
-        {
-		System.out.println("Invalid pin");
-        }
              
 		
 	}
+}
 }
