@@ -1,7 +1,7 @@
 // package Employee;
 import java.util.*;
 public class Employee{
-	String name;//ye hme likhna padega because in (this.salary) at 15th line, this (String name) is that string which is storing the value of the name1
+	String name;//ye hme likhna padega because in (this.name) at 16th line, this (String name) in the 4th line is that string which is storing the value of the name1 in line 16
 	int id;
 	String bloodgroup;
 	int salary;
