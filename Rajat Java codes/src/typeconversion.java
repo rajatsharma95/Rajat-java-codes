@@ -40,29 +40,33 @@ public class typeconversion {
 		int a=sn.nextInt();
 		int h=obj.convertma(a);
 		System.out.println(h);
+		System.out.println("Press anything except 1,2,3,4 to ext the loop");
 		break;
 	case 2:
 		System.out.println("Enter for l to ml");
 		int b=sn.nextInt();
 		int i=obj.convertmb(b);
 		System.out.println(i);
+		System.out.println("Press anything except 1,2,3,4 to ext the loop");
 		break;
 	case 3:
 		System.out.println("Enter for kg to g");
 		int c=sn.nextInt();
 		int j=obj.convertmc(c);
 		System.out.println(j);
+		System.out.println("Press anything except 1,2,3,4 to ext the loop");
 		break;
 	case 4:
 		System.out.println("Enter for min to sec");
 		int g=sn.nextInt();
 		int k=obj.convertmd(g);
 		System.out.println(+k);
+		System.out.println("Press anything except 1,2,3,4 to ext the loop");
 		break;
 
 	default:
-		System.out.println("EXIT");
-		System.exit(0);
+		System.out.println("EXIT"); 
+		System.exit(0); //exiting the switch condition
 		
 		}
 	}while(true);
