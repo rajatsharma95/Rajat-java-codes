@@ -1,6 +1,5 @@
 package Inheritance;
 
-
 public class Student2 extends Student1{
 
 	double m1,m2,m3;
