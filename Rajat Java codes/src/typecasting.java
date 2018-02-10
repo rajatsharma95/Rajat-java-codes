@@ -2,9 +2,19 @@ import java.util.*;
 public class typecasting {
 	public static void main(String[] args)
 	{
+		
+		/* Note:- If we want to convert any datatype to string then use {datatpe.toString(i), or if we want to convert the string to the datatype then we use for eg:- Integer.parseInt(h)*/ 
+		
+		//char to int
 		char a = 'C';
-		   int b = a;
-		   System.out.println("My First Program " +b); 
+		   int b = a; // as int is bigger and char is smaller so it means that we can convert from char to int therefore we are doing the implicit conversion 
+		   System.out.println("My First Program " +b);
+		  
+		   //int to char
+		   int ff=77;
+		  char  gg=(char)ff; //Here as we are converting int to char which is invalid therefore we are performing the explicit conversion
+			System.out.println(gg);
+		   
 		// double to int
 			double d = 65.87d;
 			int e = (int) d; //here we are doing the explicit conversion because yhan bada(double) datatype convert hora hai chote(int) me which is not possible, so therefore hmne yhan typecasting ki
@@ -67,6 +77,11 @@ public class typecasting {
 		   float bb= Float.parseFloat(aa); //String ko float me convert krdo
 		   System.out.println("ans. is " +bb);
 		   	 
+		   
+		   //int to double
+		   int cc=76;
+			double dd=cc;
+			System.out.println(dd);
 		  
 	}
 	
